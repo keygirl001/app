@@ -10,7 +10,7 @@ module.exports = {
     module: {
         loaders: [
             {test: /.js$/, loader: 'babel-loader', query: { presets: ['es2015'] }, exclude: /node_modules/},
-            {test: /.less$/, loader: 'style-loader!css-loader!less-loader'},
+            {test: /.less$/, loader: 'style!css!less'},
             {test: /.(jpg|png)$/, loader: 'url?limit=8192'}
         ]
     },
