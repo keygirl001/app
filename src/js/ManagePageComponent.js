@@ -40,7 +40,7 @@ let ManageObj = {
     addBottomComponent () {
         this.addComponent({
             height: 40,
-            text: '835650053@qq.com-cst',
+            text: '365389400@qq.com-cf',
             css: {
                 position: 'absolute',
                 left: 0,

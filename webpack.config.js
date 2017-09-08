@@ -9,8 +9,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /.js$/, loader: 'babel', query: { presets: ['es2015'] }, exclude: /node_modules/},
-            {test: /.less$/, loader: 'style!css!less'},
+            {test: /.js$/, loader: 'babel-loader', query: { presets: ['es2015'] }, exclude: /node_modules/},
+            {test: /.less$/, loader: 'style-loader!css-loader!less-loader'},
             {test: /.(jpg|png)$/, loader: 'url?limit=8192'}
         ]
     },
